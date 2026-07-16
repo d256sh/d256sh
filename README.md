@@ -14,3 +14,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+$ whoami
+> Denys Sh.
+
+$ cat philosophy.md
+> I believe in zero-to-minimal cost abstractions that never compromise maintainability. A framework’s quality is measured by its footprint; we must not force users to pay with CPU cycles and bandwidth just to subsidize developer convenience.

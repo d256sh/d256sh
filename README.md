@@ -1,4 +1,5 @@
-> \_ SYSTEM AWAKE.
+```markdown
+> \_ Loading profile: Denys Sh.
 
 ```text
 Memory region [0x08048010 - 0x0804802F] (env_config):
@@ -38,16 +39,14 @@ Memory region [0x08048010 - 0x0804802F] (env_config):
 + [  OK  ] Docker / Kubernetes              [ ORCHESTRATION READY ]
 + [  OK  ] Git / GitHub                     [ VERSION CONTROL READY ]
 
-@@ [ INFO ] Reading core configuration /etc/philosophy.conf...
+@@ [ INFO ] Loading engineering philosophy...
 ```
 
 ```console
-denys@arch:~$ echo "$USER_NAME"
-Denys Sh.
-```
+denys@arch:~$ alias philosophy
+philosophy='cat ~/vaults/sec_brain/philosophy.md'
 
-```console
-denys@arch:~$ cat /etc/philosophy.conf
+denys@arch:~$ philosophy
 I believe in near-zero-cost abstractions that never compromise maintainability.
 A framework's quality is measured not only by developer experience,
 but by its runtime footprint.

@@ -2,7 +2,7 @@
 > \_ Loading profile: Denys Sh.
 
 ```text
-Memory region [0x08048010 - 0x0804802F] (env_config):
+Memory region [0x08048010 - 0x0804802F]:
 0x08048010  5a 65 64 2c 20 5a 65 6e 00 00 00 00 00 00 00 00  |Zed, Zen........|
 0x08048020  4f 62 73 69 64 69 61 6e 00 00 00 00 00 00 00 00  |Obsidian........|
 ```

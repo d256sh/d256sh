@@ -1,11 +1,11 @@
-```markdown
->_ SYSTEM AWAKE.
+> \_ SYSTEM AWAKE.
 
+```text
 Memory region [0x08048000 - 0x0804802F] (env_config):
 0x08048000  41 72 63 68 20 4c 69 6e 75 78 00 00 00 00 00 00  |Arch Linux......|
 0x08048010  5a 65 64 2c 20 5a 65 6e 00 00 00 00 00 00 00 00  |Zed, Zen........|
 0x08048020  4f 62 73 69 64 69 61 6e 00 00 00 00 00 00 00 00  |Obsidian........|
-
+```
 
 ```diff
 + [  OK  ] Reached target Developer_Profile.
@@ -36,27 +36,25 @@ Memory region [0x08048000 - 0x0804802F] (env_config):
 + [  OK  ] Node.js / NestJS                 [ BACKEND RUNTIME READY ]
 + [  OK  ] REST / GraphQL                   [ API LAYER CONNECTED ]
 + [  OK  ] PostgreSQL / MongoDB / Redis     [ DATA LAYER ONLINE ]
-+ [  OK  ] Prisma                           [ ORM INITIALIZED ]
++ [  OK  ] Prisma / TypeORM                 [ ORM LAYER INITIALIZED ]
 + [  OK  ] SSR / Core Web Vitals / SEO      [ DELIVERY OPTIMIZED ]
 + [  OK  ] WebGL / Three.js / GLSL          [ GPU PIPELINE ACTIVE ]
-+ [  OK  ] Docker / Kubernetes              [ CONTAINERS ONLINE ]
++ [  OK  ] Docker / Kubernetes              [ ORCHESTRATION READY ]
 + [  OK  ] Git / GitHub                     [ VERSION CONTROL READY ]
 
-[ INFO ] Reading core configuration /etc/philosophy.conf...
+@@ [ INFO ] Reading core configuration /etc/philosophy.conf...
 ```
 
-```bash
+```console
 denys@arch:~$ echo "$USER_NAME"
 Denys Sh.
-
-denys@arch:~$ cat /etc/philosophy.conf
-I believe in near-zero-cost abstractions that never compromise maintainability.
-
-A framework's quality is measured not only by developer experience,
-but by its runtime footprint.
-
-Users shouldn't pay in CPU cycles and bandwidth for abstractions
-that primarily benefit developers.
 ```
 
+```console
+denys@arch:~$ cat /etc/philosophy.conf
+I believe in near-zero-cost abstractions that never compromise maintainability.
+A framework's quality is measured not only by developer experience,
+but by its runtime footprint.
+Users shouldn't pay in CPU cycles and bandwidth for abstractions
+that primarily benefit developers.
 ```

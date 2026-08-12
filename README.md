@@ -1,3 +1,4 @@
+```markdown
 >_ SYSTEM AWAKE.
 
 Memory region [0x08048000 - 0x0804802F] (env_config):
@@ -56,4 +57,6 @@ but by its runtime footprint.
 
 Users shouldn't pay in CPU cycles and bandwidth for abstractions
 that primarily benefit developers.
+```
+
 ```

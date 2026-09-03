@@ -8,14 +8,12 @@
 @@ [ INFO ] Loading engineering modules...
 + [  OK  ] React / Next.js / TypeScript     [ FRONTEND RUNTIME READY ]
 + [  OK  ] Astro / Svelte                   [ PROGRESSIVE DELIVERY READY ]
++ [  OK  ] Three.js / WebGL / GLSL          [ GPU PIPELINE ACTIVE ]
 + [  OK  ] Node.js / NestJS                 [ BACKEND RUNTIME READY ]
++ [  OK  ] SSR / Core Web Vitals / SEO      [ DELIVERY OPTIMIZED ]
++ [  OK  ] Prisma / TypeORM / Drizzle       [ ORM LAYER INITIALIZED ]
 + [  OK  ] REST / GraphQL                   [ API LAYER CONNECTED ]
 + [  OK  ] PostgreSQL / MongoDB / Redis     [ DATA LAYER ONLINE ]
-+ [  OK  ] Prisma / TypeORM                 [ ORM LAYER INITIALIZED ]
-+ [  OK  ] SSR / Core Web Vitals / SEO      [ DELIVERY OPTIMIZED ]
-+ [  OK  ] Three.js / WebGL / GLSL          [ GPU PIPELINE ACTIVE ]
-+ [  OK  ] Docker / K8s                     [ ORCHESTRATION READY ]
-+ [  OK  ] Git / GitHub | GitLab            [ VERSION CONTROL READY ]
 
 @@ [ INFO ] Loading engineering philosophy...
 ```

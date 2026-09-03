@@ -1,10 +1,5 @@
 ```markdown
 > \_ Loading profile: Denys Sh.
-
-```text
-Memory region [0x08048010 - 0x0804802F]:
-0x08048010  5a 65 64 2c 20 5a 65 6e 00 00 00 00 00 00 00 00  |Zed, Zen........|
-0x08048020  4f 62 73 69 64 69 61 6e 00 00 00 00 00 00 00 00  |Obsidian........|
 ```
 
 ```diff
@@ -31,8 +26,7 @@ philosophy='cat ~/vaults/sec_brain/philosophy.md'
 
 denys@arch:~$ philosophy
 I believe in near-zero-cost abstractions that never compromise maintainability.
-A framework's quality is measured not only by developer experience,
-but by its runtime footprint.
-Users shouldn't pay in CPU cycles and bandwidth for abstractions
+A framework's quality is measured not only by developer experience, but by its runtime footprint.
+Users devices shouldn't pay in CPU cycles and bandwidth for abstractions
 that primarily benefit developers.
 ```

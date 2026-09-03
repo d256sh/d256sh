@@ -19,10 +19,7 @@
 ```
 
 ```console
-denys@arch:~$ alias philosophy
-philosophy='cat ~/vaults/sec_brain/philosophy.md'
-
-denys@arch:~$ philosophy
+denys@arch:~$ cat ~/vaults/sec_brain/philosophy.md
 I believe in near-zero-cost abstractions that never compromise maintainability.
 A framework's quality is measured not only by developer experience, but by its runtime footprint.
 Users devices shouldn't pay in CPU cycles and bandwidth for abstractions
